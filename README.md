@@ -10,7 +10,7 @@ This repository contains a simple driver for the BH1750 ambient light sensor, cr
 4. **Data Retrieval**: After a 180 ms delay (required by high-resolution mode), two bytes are requested from the sensor. These are converted into a lux reading using the BH1750’s conversion factor (`/ 1.2`).  
 
 ### Features
-- Straightforward, single-file sketch in C++ that’s easy to integrate.  
+- Straightforward, single-file sketch in C++ that’s easy to integrate as a .ino file for arduino IDE.
 - Basic error checking (it verifies that two bytes are read).  
 - Demonstrates how to communicate with an I2C device on the Pi Pico using the Arduino Mbed environment.  
 
